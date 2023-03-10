@@ -72,6 +72,13 @@
         font-size: 1.5rem;
         text-align: right;
       }
+      a {
+        color: v.$color-Maintext;
+        text-decoration: none;
+        &:hover {
+          color: red;
+        }
+      }
     }
     .menu-hide {
       transform: translateX(400px);

@@ -46,11 +46,16 @@
   }
 }
 
-
 @media only screen and (max-width: 500px) {
   .sidebar {
     width: 100%;
     margin-bottom: 2rem;
-
+    a {
+      color: v.$color-Maintext;
+      text-decoration: none;
+      &:hover {
+        color: red;
+      }
+    }
   }
 }
