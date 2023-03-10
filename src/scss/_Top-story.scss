@@ -1,0 +1,53 @@
+@use './variables' as v;
+
+.top-story {
+  display: flex;
+  justify-content: space-between;
+  width: 320px;
+
+  img {
+    width: 100px;
+    object-fit: cover;
+  }
+  .abstract {
+    width: fit-content;
+    margin: 0 0 0 1rem;
+  }
+  h3 {
+    margin-bottom: 0.5rem;
+    font-size: 2rem;
+    color: v.$color-Buttontext;
+  }
+  h4 {
+    margin-bottom: 0.5rem;
+    font-size: 1rem;
+  }
+  a {
+    text-decoration: none;
+    color: v.$color-h1;
+    &:hover {
+      color: red;
+    }
+  }
+  
+  p {
+    font-size: 0.8rem;
+  }
+}
+
+.top-stories {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 2rem;
+}
+
+@media only screen and (max-width: 500px) {
+  .top-stories {
+    flex-direction: column;
+  }  
+  .top-story {
+    width: 100%;
+    margin-bottom: 2rem;
+  }
+}
