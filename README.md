@@ -26,9 +26,9 @@ Users should be able to:
 
 ### Screenshot
 
-(./public/Screenshot 1.png)
-(./public/Screenshot 2.png)
-(./public/Screenshot 3.png)
+![Screenshot1](./public/Screenshot 1.png)
+![Screenshot1](./public/Screenshot 2.png)
+![Screenshot1](./public/Screenshot 3.png)
 
 ### Links
 
